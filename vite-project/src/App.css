@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 10px;
+   background-color: rgb(2, 2, 71);
+   z-index: 999;
+   position: sticky;
+   top: 0;
+}
+.logo{
+    width: 50px;
+}
+h1{
+    color: white;
+}
+.logodiv{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+    margin:5px;
+}
+ul li{
+    margin:8px;
+    padding:5px;
+}
+button{
+    width: 100px;
+    height:28px;
+    border: none;
+    border-radius: 10px;
+}
+.aside{
+    background-image: url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-top: 200px;
+}
+.first{
+    color: black;
+    padding:10px;
+    font-size:44px;
+}
+.second{
+    color: red;
+    padding:10px;
+    font-size:44px;
+}
+.aside p{
+    color: white;
+    padding:20px;
+    width: 500px;
+}
+.search , .knowmore{
+    width: 150px;
+    height: 43px;
+    margin:13px;
+    border-radius: 5px;
+    background-color: #ff3434;
+    font-size: 15px;
+    font-weight: 700;
+}
+.knowmore{
+    background-color: rgb(243, 217, 217);
+}
+.card{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom:100px;
+}
+.left{
+    z-index: 2;
+    width: 50%;
+    height: 38rem;
+    margin-top:6rem;
+    margin-left:3rem;
+    background-image: url(https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    background-size: cover;
+}
+.right{
+    z-index: 1; 
+    width: 50%;
+    height: 45rem;
+    background-color: rgb(207, 207, 207);
+    margin-top: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+.data{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    margin-right: 5rem;
+    gap:30px;
+    
+    
+}
+
+.data button{
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: rgb(12, 12, 59);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    place-items: center;
+}
+.grid .newcard{
+    width: 300px;
+    background-color: lightblue;
+    padding:20px;
+    border-radius: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap:10px
+}
+.profile img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
